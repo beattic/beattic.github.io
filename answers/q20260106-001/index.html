@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beattic | 解答確認</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap"
+    data-problem="セット謎の研究 Q1"
+    data-salt="q20260106-001"
+    data-answer-hash="
+      a9479eb706226612733db14ef65e90767609af62467a48390c324c072c13e178,
+      76394ba64eabd73e7a92b44d340287a2b64cfd54ef9630c2683dc6c632bcf611
+    "
+  >
+
+    <section class="card">
+      <h1 class="title" id="problemTitle"></h1>
+
+      <label class="label" for="answer">答え</label>
+      <input id="answer" class="input" type="text" placeholder="入力して判定" autocomplete="off" />
+
+      <button id="check" class="btn">判定</button>
+
+      <div id="result" class="result" role="status" aria-live="polite">ここに結果が出ます</div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
