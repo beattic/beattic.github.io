@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-32F8NJ8N8X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-32F8NJ8N8X');
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beattic | 解答確認</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap"
+    data-problem="20260122 Q4"
+    data-salt="q20260122-004"
+    data-answer-hash="
+      5c4ac80b85b61504a798362f4498630a668f24e8de1afdd4b9fb9aee4151f146,
+      0aeb0d321a794fda06a0bd68dce924178fdf6ad65c3fe12661e8c5236e60e552
+    "
+  >
+
+    <section class="card">
+      <h1 class="title" id="problemTitle"></h1>
+
+      <label class="label" for="answer">答え</label>
+      <input id="answer" class="input" type="text" placeholder="入力して判定" autocomplete="off" />
+
+      <button id="check" class="btn">判定</button>
+
+      <div id="result" class="result" role="status" aria-live="polite">ここに結果が出ます</div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
